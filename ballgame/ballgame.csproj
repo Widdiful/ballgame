@@ -63,10 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\GameController.cs" />
     <Compile Include="Assets\scripts\PlayerController.cs" />
     <Compile Include="Assets\scripts\bullet.cs" />
+    <Compile Include="Assets\scripts\zaku.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\models\Materials\CelShade.shader" />
     <None Include="Assets\models\Materials\Internal-DeferredShading.shader" />
     <None Include="Assets\models\Materials\Internal-PrePassLighting.shader" />
